@@ -14,7 +14,7 @@ TARGET_CITIES = [
     "Bethel", "Bridgeport", "Brookfield", "Danbury", "Darien", "Easton",
     "Fairfield", "Greenwich", "Monroe", "New Canaan", "Newtown", "Norwalk",
     "Redding", "Ridgefield", "Shelton", "Sherman", "Stamford", "Stratford",
-    "Trumbull", "Weston", "Westport", "Wilton", "New Fairfield"
+    "Trumbull", "Weston", "Westport", "Wilton", "New Fairfield", "New Haven"
 ]
 
 # Configure browser options

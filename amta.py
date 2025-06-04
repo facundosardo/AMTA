@@ -9,12 +9,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-# List of target cities
+# List of target cities to filter professionals
 TARGET_CITIES = [
-    "Bethel", "Bridgeport", "Brookfield", "Danbury", "Darien", "Easton",
-    "Fairfield", "Greenwich", "Monroe", "New Canaan", "Newtown", "Norwalk",
-    "Redding", "Ridgefield", "Shelton", "Sherman", "Stamford", "Stratford",
-    "Trumbull", "Weston", "Westport", "Wilton", "New Fairfield", "New Haven"
+    "Ansonia", "Beacon Falls", "Bethany", "Branford", "Cheshire", "Derby",
+    "East Haven", "Guilford", "Hamden", "Madison", "Meriden", "Middlebury",
+    "New Haven", "North Branford", "North Haven", "Orange", "Oxford", "Prospect",
+    "Seymour", "Shelton", "Southbury", "Wallingford", "Waterbury", "West Haven",
+    "Woodbridge", "Bethel", "Bridgeport", "Brookfield", "Danbury", "Darien",
+    "Easton", "Fairfield", "Greenwich", "Monroe", "New Canaan", "Newtown",
+    "Norwalk", "Redding", "Ridgefield", "Shelton", "Sherman", "Stamford",
+    "Stratford", "Trumbull", "Weston", "Westport", "Wilton", "New Fairfield",
 ]
 
 # Configure browser options

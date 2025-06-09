@@ -162,4 +162,4 @@ except Exception as e:
     print(f"Error during search: {e}")
 
 finally:
-    driver.quit()
+    driver.quit() 
